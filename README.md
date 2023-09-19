@@ -13,7 +13,7 @@ The graphs presented here are the results of the code, featuring the Axion Photo
 
 ## Basic plot without proyections
 
-### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_large_panoramalabeled.pdf)
+### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_large_panoramalabeled.pdf)
 ### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_large_panorama.png)
 ### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_large_panorama.svg)
 
