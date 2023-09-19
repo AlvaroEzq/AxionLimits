@@ -9,48 +9,48 @@ The graphs presented here are the results of the code, featuring the Axion Photo
 
 # Basic Plot
 ---
-[<img align="right" height="250" src="Javatrain/plots/Labeled/AxionPhoton_large_panorama.svg">](https://github.com/DanielMartinezMiravete/Axion-limts/blob/main/Javatrain/plots/Labeled/AxionPhoton_large_panorama.svg)
+[<img align="right" height="250" src="Javat/plots/Labeled/AxionPhoton_large_panorama.svg">](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_large_panoramalabeled.svg)
 
 ## Basic plot without proyections
 
-### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_large_panoramalabeled.pdf)
-### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_large_panorama.png)
-### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_large_panorama.svg)
+### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_large_panoramalabeled.pdf)
+### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_large_panorama.png)
+### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_large_panorama.svg)
 
 ### &nbsp;
 
 # Close up General Plot
 ---
-[<img align="right" height="250" src="Javatrain/plots/Labeled/AxionPhoton_panorama.svg">](https://github.com/DanielMartinezMiravete/Axion-limts/blob/main/Javatrain/plots/Labeled/AxionPhoton_panorama.svg)
+[<img align="right" height="250" src="Javat/plots/Labeled/AxionPhoton_panorama.svg">](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_panoramalabeled.svg)
 
 ## Close up General plot without proyections
 
-### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_panoramalabeled.pdf)
-### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_panorama.png)
-### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_panorama.svg)
+### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_panoramalabeled.pdf)
+### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_panorama.png)
+### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_panorama.svg)
 
 ### &nbsp;
 
 # Close up Helioscopes Plot
 ---
-[<img align="right" height="250" src="Javatrain/plots/Labeled/AxionPhoton_helioscopes.svg">](https://github.com/DanielMartinezMiravete/Axion-limts/blob/main/Javatrain/plots/Labeled/AxionPhoton_helioscopes.svg)
+[<img align="right" height="250" src="Javat/plots/Labeled/AxionPhoton_helioscopes.svg">](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_helioscopes.svg)
 
 ## Close up Helioscopes plot without proyections
 
-### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_helioscopeslabeled.pdf)
-### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_helioscopes.png)
-### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_helioscopes.svg)
+### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_helioscopeslabeled.pdf)
+### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_helioscopes.png)
+### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_helioscopes.svg)
 
 ### &nbsp;
 # Close up Halocopes Plot
 ---
-[<img align="right" height="250" src="Javatrain/plots/Labeled/AxionPhoton_haloscopes.svg">](https://github.com/DanielMartinezMiravete/Axion-limts/blob/main/Javatrain/plots/Labeled/AxionPhoton_haloscopes.svg)
+[<img align="right" height="250" src="Javat/plots/Labeled/AxionPhoton_haloscopes.svg">](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/blob/main/Javat/plots/Labeled/AxionPhoton_haloscopes.svg)
 
 ## Close up Haloscopes plot without proyections
 
-### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_haloscopeslabeled.pdf)
-### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_haloscopes.png)
-### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion-limts/raw/main/Javatrain/plots/Labeled/AxionPhoton_haloscopes.svg)
+### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_haloscopeslabeled.pdf)
+### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_haloscopes.png)
+### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_haloscopes.svg)
 
 ### &nbsp;
 
