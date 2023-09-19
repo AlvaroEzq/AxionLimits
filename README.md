@@ -25,9 +25,9 @@ The graphs presented here are the results of the code, featuring the Axion Photo
 
 ## Close up General plot without proyections
 
-### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_panoramalabeled.pdf)
-### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_panorama.png)
-### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_panorama.svg)
+### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_panoramalabeled.pdf)
+### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_panorama.png)
+### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_panorama.svg)
 
 ### &nbsp;
 
@@ -37,9 +37,9 @@ The graphs presented here are the results of the code, featuring the Axion Photo
 
 ## Close up Helioscopes plot without proyections
 
-### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_helioscopeslabeled.pdf)
-### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_helioscopes.png)
-### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_helioscopes.svg)
+### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_helioscopeslabeled.pdf)
+### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_helioscopes.png)
+### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_helioscopes.svg)
 
 ### &nbsp;
 # Close up Halocopes Plot
@@ -48,10 +48,10 @@ The graphs presented here are the results of the code, featuring the Axion Photo
 
 ## Close up Haloscopes plot without proyections
 
-### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_haloscopeslabeled.pdf)
-### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_haloscopes.png)
-### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_limts_Mermory/raw/main/Javat/plots/Labeled/AxionPhoton_haloscopes.svg)
-
+### [Download (.pdf)](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_haloscopeslabeled.pdf)
+### [Download (.png)](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_haloscopes.png) 
+### [Download (.svg)](https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/plots/Labeled/AxionPhoton_haloscopes.svg)
+For the haloscopes, there are additional graphs zooming in on different areas.
 ### &nbsp;
 
 ---
