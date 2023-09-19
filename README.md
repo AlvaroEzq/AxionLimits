@@ -61,13 +61,73 @@ To recreate these images, we need to execute the Python program called "PlotAxio
 python3 PlotAxionPhoton.py    #To plot all the plots from Axion Photon 
 ```
 This will plot all types of graphs listed without their projections. To include the projections, we should modify the "Projections" parameter in PlotAxionPhoton.py and set it to True.
-
-
-These graphs are generated directly without labels since we have a web application capable of adding them interactively.
+These graphs are generated directly without labels since we have a web application capable of adding them interactively, if you want to generated them with labels on it, we had to go to the script called AxionPlot and decomment the line 90.
 
 ([Label's APP](http://htmlpreview.github.io/?https://github.com/DanielMartinezMiravete/Axion-limts/blob/main/Javatrain/svg/index.html))
 
-This is only a preview of the app. To interact with it, you must download the repository. The app is located in the 'Java' folder, and you will also find another folder called 'plot' where the different plots are stored to verify the correct functioning of the app.
-
+This is only a preview of the app. To interact with it, you must download the repository. The app is located in the 'Javat' folder, and you will also find another folder called 'plot' where the different plots are stored to verify the correct functioning of the app.
+You can start the app by opening the HTML script called 'index.html'
 This application is only capable of modifying SVG files, which are generated automatically along with the PDFs when running the Python script. Instructions for the webpage are provided within the webpage itself.
+
+There are known bugs such as the app cannot interpret LaTeX. If you have several labels on it and if you want to move a label other than the last label, the coordinates will replace the coordinates of the last label written
+
+As additional information, to interact with the database, you need to use different functions implemented in the script called 'DataBaseGag.py'.
+This repository contains Python scripts for interacting with the AxionsGag database. The database is used to manage information about various experiments related to axion research. Below, you'll find instructions on how to use the provided functions to work with the database.
+
+## Function Descriptions
+
+1. **CreateDB():**
+   - Use this function to create the AxionsGag database if it doesn't exist.
+   - Call it only once to initialize the database.
+
+2. **CreateTable():**
+   - This function is used to create a table called "Axions" inside the database.
+   - You should call it once to set up the table structure.
+
+3. **InsertRow(name, type, path, LP, P, Helios, Halos, LSW, projection):**
+   - Insert a single row into the "Axions" table.
+   - Provide values for columns like name, type, path, large_panorama, panorama, helioscopes, haloscopes, lswexps, and projection.
+
+4. **ReadRows():**
+   - Retrieve and print all rows from the "Axions" table.
+   - Displays all data stored in the table.
+
+5. **InsertRows(axionexps):**
+   - Insert multiple rows into the "Axions" table at once.
+   - Provide a list of lists (axionexps) where each inner list represents a row of data.
+
+6. **ReadOrdered(field):**
+   - Retrieve and print rows from the "Axions" table sorted by a specified field.
+   - Pass a field name as an argument to sort the rows in ascending order based on that field.
+
+7. **Search(field, token):**
+   - Search for rows in the "Axions" table that match specific criteria.
+   - Provide a field name and a token value to find matching rows based on that criteria.
+   - Returns a list of lists with matching data.
+
+8. **Search_Names(field, token):**
+   - Similar to the Search function but returns a list of names (the first column) of matching rows.
+
+9. **Update(name, field, value):**
+   - Update a specific field's value in a row with a given name.
+   - Specify the name of the row, the field to update, and the new value.
+
+10. **DeleteRow(name):**
+    - Delete a row from the "Axions" table by specifying the name of the row to delete.
+
+## Getting Started
+
+To interact with the database, follow these steps:
+
+1. Download the repository and navigate to the appropriate directory.
+2. Make sure you have SQLite installed or install it if necessary.
+3. Modify the file paths in the script to match your directory structure.
+4. Uncomment the function calls at the end of the script to execute them and interact with the database.
+
+Please refer to the script for specific usage examples of each function.
+
+## Known Issues
+
+- The application cannot interpret LaTeX.
+- When working with multiple labels, moving a label other than the last label will replace the coordinates of the last label written.
 
