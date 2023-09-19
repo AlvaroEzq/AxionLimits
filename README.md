@@ -63,7 +63,7 @@ python3 PlotAxionPhoton.py    #To plot all the plots from Axion Photon
 This will plot all types of graphs listed without their projections. To include the projections, we should modify the "Projections" parameter in PlotAxionPhoton.py and set it to True.
 These graphs are generated directly without labels since we have a web application capable of adding them interactively, if you want to generated them with labels on it, we had to go to the script called AxionPlot and decomment the line 90.
 
-([Label's APP](http://htmlpreview.github.io/?https://github.com/DanielMartinezMiravete/Axion-limts/blob/main/Javatrain/svg/index.html))
+([Label's APP preview](http://htmlpreview.github.io/?https://github.com/DanielMartinezMiravete/Axion_Limits_Memory/blob/main/Javat/index.html))
 
 This is only a preview of the app. To interact with it, you must download the repository. The app is located in the 'Javat' folder, and you will also find another folder called 'plot' where the different plots are stored to verify the correct functioning of the app.
 You can start the app by opening the HTML script called 'index.html'
