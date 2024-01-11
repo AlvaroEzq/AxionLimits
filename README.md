@@ -6,6 +6,25 @@ The purpose of this website is to document a summer internship at the University
 The graphs presented here are the results of the code, featuring the Axion Photon Coupling without its projections.
 
 **Creator: Daniel Martinez Miravete**
+**Modified: Alvaro Ezquerro**
+
+# Files description
+The main files where the code is written are
+1. XPlotter.py : the matplotlib.pyplot objects creation and configuration are handled within the two classes (BasePlot and ExPltItem) defined in this file
+2. AxionPlot.py : the creation of the BasePlot for the two cases (AxionGagPlot and AxionGaePlot), the plotting of the data and labels are handled within this classes. The plotting of the data and labes is done through the DataBase classes defined in the following file.
+3. DataBaseClass.py : Here the DataBase classes are defined to interface with the SQLite .db files. It has the following classes:
+   - DataBase : is not intended to be used, just serve to be inherited by the other classes.
+   - DataBaseGag for the database table of AxionGag experiments.
+   - DataBaseGae for the database table of AxionGae experiments.
+   - DataBaseLabels for the database table of labels (for both AxionGag and AxionGae plots).
+This files are not intended to be modified by the user.
+
+The files that are meant to be modified and used by the user are the following:
+1. buildDataBase.py : this is an example of the building of the database .db files. It also serves as backup to be able to recreate the Axions.db in case this one is lost or edited unintentionally.
+2. example.py : this is the main file to be handled by the user to make the desired plot. Here load (and edit if you want) the database tables and call the corresponding AxionPlot constructor to make the plot.
+
+# Directorys description
+TBD
 
 # Basic Plot
 ---
@@ -58,7 +77,7 @@ For the haloscopes, there are additional graphs zooming in on different areas.
 
 To recreate these images, we need to execute the Python program called "PlotAxionPhoton.py" as follows:
 ```
-python3 PlotAxionPhoton.py    #To plot all the plots from Axion Photon 
+python3 example.py    #To plot all the plots from Axion Photon 
 ```
 This will plot all types of graphs listed without their projections. To include the projections, we should modify the "Projections" parameter in PlotAxionPhoton.py and set it to True.
 These graphs are generated directly without labels since we have a web application capable of adding them interactively, if you want to generated them with labels on it, we had to go to the script called AxionPlot and decomment the line 90.
@@ -72,47 +91,6 @@ There are known bugs such as the app cannot interpret LaTeX. If you have several
 
 As additional information, to interact with the database, you need to use different functions implemented in the script called 'DataBaseGag.py'.
 This repository contains Python scripts for interacting with the AxionsGag database. The database is used to manage information about various experiments related to axion research. Below, you'll find instructions on how to use the provided functions to work with the database.
-
-## Function Descriptions
-
-1. **CreateDB():**
-   - Use this function to create the AxionsGag database if it doesn't exist.
-   - Call it only once to initialize the database.
-
-2. **CreateTable():**
-   - This function is used to create a table called "Axions" inside the database.
-   - You should call it once to set up the table structure.
-
-3. **InsertRow(name, type, path, LP, P, Helios, Halos, LSW, projection):**
-   - Insert a single row into the "Axions" table.
-   - Provide values for columns like name, type, path, large_panorama, panorama, helioscopes, haloscopes, lswexps, and projection.
-
-4. **ReadRows():**
-   - Retrieve and print all rows from the "Axions" table.
-   - Displays all data stored in the table.
-
-5. **InsertRows(axionexps):**
-   - Insert multiple rows into the "Axions" table at once.
-   - Provide a list of lists (axionexps) where each inner list represents a row of data.
-
-6. **ReadOrdered(field):**
-   - Retrieve and print rows from the "Axions" table sorted by a specified field.
-   - Pass a field name as an argument to sort the rows in ascending order based on that field.
-
-7. **Search(field, token):**
-   - Search for rows in the "Axions" table that match specific criteria.
-   - Provide a field name and a token value to find matching rows based on that criteria.
-   - Returns a list of lists with matching data.
-
-8. **Search_Names(field, token):**
-   - Similar to the Search function but returns a list of names (the first column) of matching rows.
-
-9. **Update(name, field, value):**
-   - Update a specific field's value in a row with a given name.
-   - Specify the name of the row, the field to update, and the new value.
-
-10. **DeleteRow(name):**
-    - Delete a row from the "Axions" table by specifying the name of the row to delete.
 
 ## Getting Started
 
