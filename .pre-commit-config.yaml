@@ -16,3 +16,12 @@ repos:
     rev: 23.3.0
     hooks:
       - id: black
+
+exclude: |
+    (?x)^(
+        data/.*|
+        plots/.*|
+        Javat/plots/.*|
+        databases/.*|
+        buildDataBase.py
+    )$
