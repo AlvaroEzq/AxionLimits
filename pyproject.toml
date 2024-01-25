@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 
 
 [project]
-name = "AxionLimits"
+name = "axion-limits"
 description = "A Python library for generating axion sensitivity plots."
 readme = "README.md"
 requires-python = ">=3.8"
